@@ -21,4 +21,10 @@ public class Member {
 
     @OneToMany(mappedBy = "member") //order테이블의 member에 의해 매핑 된다는 의미임
     private List<Order> orders = new ArrayList<>();
+
+    public static void main(String[] args) {
+        Member member = new Member();
+
+
+    }
 }

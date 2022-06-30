@@ -11,11 +11,11 @@ import org.springframework.transaction.annotation.Transactional;
 
 import static org.junit.Assert.*;   //처음에 Assert에 컴파일 오류 표시가 날 것임 build에 word에 있는 거 추가해 줘야함
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
-public class MemberRepositoryTest {
+    @RunWith(SpringRunner.class)
+    @SpringBootTest
+    public class MemberRepositoryTest {
 
-    @Autowired MemberRepository memberRepository;
+        @Autowired MemberRepository memberRepository;
 
     @Test
     @Transactional
